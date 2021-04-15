@@ -2,6 +2,8 @@ OC-Project5
 
 OC Project 5: Build an eCommerce Website
 
+View the site at: https://smith-jh.github.io/OC-Project5/ 
+
 # Orinoco #
 
 This is the back end server for Project 5 of the Junior Web Developer path.
