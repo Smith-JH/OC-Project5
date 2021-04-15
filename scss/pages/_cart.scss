@@ -1,0 +1,27 @@
+th {
+    font-family: cursive;
+    font-size: large;
+}
+
+.order-section {
+    @include background;
+    margin-bottom: 20px;
+    .customer-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto;
+        label {
+            font-family: cursive;
+            font-weight: 500;
+        }
+    }
+    .order-btn {
+        margin: auto;
+        display: flex;
+        padding: 5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: cursive;
+    }
+}

@@ -1,0 +1,12 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin background {
+    border-top: $secondary solid 2px;
+    border-bottom: $secondary solid 2px;
+    background: $translucent;
+}

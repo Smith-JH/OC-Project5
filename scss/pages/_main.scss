@@ -1,0 +1,119 @@
+.page-header{
+    @include background;
+    margin-bottom: 20px;
+    .nav-line{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-bar {
+            order: 1;
+            font-size: 2.5vw;
+            .nav-item {
+                margin-right: 1vw;
+                font-family: cursive;
+            }
+        }    
+        .logo {
+            width: auto;
+            margin-left: 6vw;
+            order: 0;
+        }
+    }    
+    .main-heading {
+        font-family: 'Lakki Reddy', cursive;
+        display: flex;
+        justify-content: center;
+        color: $primary;
+        font-size: 4vw;
+        padding-top: 10px;
+    }
+}
+
+.card {
+    margin-bottom: 25px;
+    border: $secondary solid 1px;
+    background-color: $translucent;
+    padding: 5px;
+    .card-title {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 15px;
+        .price {
+            font-family: cursive;
+        }
+    }
+    .image {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+        display: flex;
+    }
+    .more-info-btn {
+        margin: auto;
+        display: flex;
+        padding-bottom: 5px;
+    }
+    .colour-select {
+        font-size: 2vw;
+        font-weight: 600;
+        font-family: cursive;
+    }
+    .dd-menu {
+        margin: 0 10px 20px 15px;
+        padding: 2px;
+        font-size: 1.5vw;
+        background-color: lighten($secondary, 15%);
+        color: rgb(17, 126, 17);
+        font-family: cursive;
+    }
+    .dd-item {
+        color: black;
+        font-family: cursive;
+    }
+    .basket-btn {
+        display: inline-flex;
+        padding: 5px 5px 0px 5px;
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 1.5vw;
+        font-weight: 600;
+        box-shadow: 1px 1px 4px 3px grey;
+        &:hover {
+            border: $secondary solid 2px;
+            background-color: darken($translucent, 50%);
+            cursor: pointer;
+            color: black;
+            padding: 7px 7px 2px 7px;
+        }
+    }
+    .a-link-button {
+        display: inline-flex;
+        padding: 6px 6px 0px 6px;
+        font-family: 'Lakki Reddy', cursive;
+        font-size: 1.5vw;
+        font-weight: 600;
+        box-shadow: 1px 1px 4px 3px grey;
+        &:hover {
+            border: $secondary solid 2px;
+            background-color: darken($translucent, 50%);
+            cursor: pointer;
+        }
+    }
+    .added-text {
+        display: flex;
+        font-size: 2vw;
+        justify-content: center;
+        padding: 10px;
+        font-family: cursive;
+    }    
+}
+
+.footer{
+    @include background;
+    display: flex;
+    .ftr-text {
+        padding-top: 10px;
+        margin: auto;
+    }
+}

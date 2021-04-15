@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <title>Orinoco: Handmade Teddy Bears</title>
+    <meta name="description" content="The Online Handmade Teddy Bear Company">
+    <!-- Font import -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CSS style sheet-->
+    <link href="../css/style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <div class="row nav-line">
+          <nav class="col-4 nav-bar">
+              <a class="nav-item" id="link-text" href="../index.html">Shop</a>
+              <a class="nav-item" id="link-text" href="./cart.html">Basket</a>
+          </nav>
+          <img class="col-5 logo" src="../images/orinoco.png" alt="Ornioco Logo" title="Orinoco">  
+        </div>  
+        <h1 class="main-heading">Orinoco: Handmade Teddy Bears</h1>
+      </header>
+        <main class="main">
+        </main>
+        <div class="order-section my-4" id="order">
+          <h2 class="sub-heading my-4 pl-3">Submit Order:</h2>
+          <form>
+            <div class="customer-info">
+              <div class="form-group">
+                <label for="firstName">First Name(s)</label>
+                <input class="form-control" id="firstName" type="text" placeholder="First Name(s)">
+                <p class="invalid-input d-none alert-danger centered" id="invalidFirstName">Invalid Input</p>
+              </div>
+              <div class="form-group">
+                <label for="Surname">Surname</label>
+                <input class="form-control" id="surname" type="text" placeholder="Surname">
+                <p class="invalid-input d-none alert-danger centered" id="invalidSurname">Invalid Input</p>
+              </div>
+              <div class="form-group">
+                <label for="Address">Address</label>
+                <input class="form-control" id="address" type="text" placeholder="Address">
+                <p class="invalid-input d-none alert-danger centered" id="invalidAddress">Invalid Input</p>
+              </div>
+              <div class="form-group">
+                <label for="City">City</label>
+                <input class="form-control" id="city" type="text" placeholder="City">
+                <p class="invalid-input d-none alert-danger centered" id="invalidCity">Invalid Input</p>
+              </div>
+              <div class="form-group">
+                <label for="Email">Email</label>
+                <input class="form-control" id="email" type="email" placeholder="Email">
+                <p class="invalid-input d-none alert-danger centered" id="invalidEmail">Invalid Input</p>
+              </div>
+            </div>
+            <input type="button" class="order-btn btn-info" id="order-button" value="Submit Order"></input>
+            <p class="d-none alert-danger centered" id="error-message"><strong>Please fill in all fields with a valid value!</strong></p>
+          </form>
+        </div> 
+        <footer class="footer">
+            <p class="ftr-text text">Orinoco Handmade Teddy Bears - 2021</p>
+        </footer>
+    </div>
+    <script src="../js/cart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

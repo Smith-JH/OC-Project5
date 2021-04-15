@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+solid {
+  font-weight: 700;
+  color: #9356DC;
+  text-decoration: underline;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#link-text {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+#link-text:hover {
+  text-decoration: underline;
+}
+
+.text {
+  padding: 0 10px 10px 15px;
+}
+
+.centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.sub-heading {
+  font-family: 'Lakki Reddy', cursive;
+}
+
+.cursive-text {
+  font-family: cursive;
+}
+
+.background-styling {
+  border-top: #ca9025 solid 2px;
+  border-bottom: #ca9025 solid 2px;
+  background: rgba(184, 157, 177, 0.2);
+}
+
+@media screen and (max-width: 600px) {
+  .nav-item {
+    font-size: 4vw;
+  }
+  .page-header .main-heading {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1360px;
+  }
+}
+
+.page-header {
+  border-top: #ca9025 solid 2px;
+  border-bottom: #ca9025 solid 2px;
+  background: rgba(184, 157, 177, 0.2);
+  margin-bottom: 20px;
+}
+
+.page-header .nav-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-header .nav-line .nav-bar {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  font-size: 2.5vw;
+}
+
+.page-header .nav-line .nav-bar .nav-item {
+  margin-right: 1vw;
+  font-family: cursive;
+}
+
+.page-header .nav-line .logo {
+  width: auto;
+  margin-left: 6vw;
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+}
+
+.page-header .main-heading {
+  font-family: 'Lakki Reddy', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #9356DC;
+  font-size: 4vw;
+  padding-top: 10px;
+}
+
+.card {
+  margin-bottom: 25px;
+  border: #ca9025 solid 1px;
+  background-color: rgba(184, 157, 177, 0.2);
+  padding: 5px;
+}
+
+.card .card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 15px;
+}
+
+.card .card-title .price {
+  font-family: cursive;
+}
+
+.card .image {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card .more-info-btn {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.card .colour-select {
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.card .dd-menu {
+  margin: 0 10px 20px 15px;
+  padding: 2px;
+  font-size: 1.5vw;
+  background-color: #e1b25b;
+  color: #117e11;
+  font-family: cursive;
+}
+
+.card .dd-item {
+  color: black;
+  font-family: cursive;
+}
+
+.card .basket-btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 5px 5px 0px 5px;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 1.5vw;
+  font-weight: 600;
+  -webkit-box-shadow: 1px 1px 4px 3px grey;
+          box-shadow: 1px 1px 4px 3px grey;
+}
+
+.card .basket-btn:hover {
+  border: #ca9025 solid 2px;
+  background-color: rgba(50, 36, 46, 0.2);
+  cursor: pointer;
+  color: black;
+  padding: 7px 7px 2px 7px;
+}
+
+.card .a-link-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 6px 6px 0px 6px;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 1.5vw;
+  font-weight: 600;
+  -webkit-box-shadow: 1px 1px 4px 3px grey;
+          box-shadow: 1px 1px 4px 3px grey;
+}
+
+.card .a-link-button:hover {
+  border: #ca9025 solid 2px;
+  background-color: rgba(50, 36, 46, 0.2);
+  cursor: pointer;
+}
+
+.card .added-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  font-family: cursive;
+}
+
+.footer {
+  border-top: #ca9025 solid 2px;
+  border-bottom: #ca9025 solid 2px;
+  background: rgba(184, 157, 177, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .ftr-text {
+  padding-top: 10px;
+  margin: auto;
+}
+
+th {
+  font-family: cursive;
+  font-size: large;
+}
+
+.order-section {
+  border-top: #ca9025 solid 2px;
+  border-bottom: #ca9025 solid 2px;
+  background: rgba(184, 157, 177, 0.2);
+  margin-bottom: 20px;
+}
+
+.order-section .customer-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto;
+}
+
+.order-section .customer-info label {
+  font-family: cursive;
+  font-weight: 500;
+}
+
+.order-section .order-btn {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+/*# sourceMappingURL=style.css.map */
