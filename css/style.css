@@ -41,6 +41,15 @@ a:hover {
   text-decoration: underline;
 }
 
+#link-txt {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+#link-txt:hover {
+  text-decoration: underline;
+}
+
 .text {
   padding: 0 10px 10px 15px;
 }
